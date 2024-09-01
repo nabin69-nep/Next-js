@@ -1,0 +1,9 @@
+export default interface User{
+    id:number,
+    email:string,
+    name:string,
+    address:{
+      street:string,
+      city:string,
+    }
+  }
